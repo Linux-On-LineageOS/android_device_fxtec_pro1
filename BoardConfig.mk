@@ -150,3 +150,4 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 
 # inherit from the proprietary version
 include vendor/fxtec/pro1/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
